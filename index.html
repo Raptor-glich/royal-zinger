@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elements</title>
+    <!--Example of an Internal css-->
+    <style>
+        abbr { 
+            color: red;
+            font-family: Times New Roman;
+        }
+        table {
+          caption-side: top;
+          text-align: left;
+           padding-bottom: 10px;
+           font-weight: bold;
+        }
+       
+    </style>
+</head>
+<body>
+    <!--The Anchor Element <a href>-->
+    <!--Example of an inline css-->
+        <p style="color: brown; font-style: italic;">You can reach me at:</p>
+        <ul>
+            <li><a href="https://potfolio.com">Website</a></li>
+            <li><a href="mailto:human@gmail.com">Email</a></li>
+            <li><a href="tel:+254-712345678">Phone Number</a></li>
+        </ul>
+
+        <!--The Abbreviation or acronym element-->
+        <p>
+            You can use <abbr>CSS</abbr> (Cascading Style Sheets) to style your <abbr title="HyperText Markup Language">HTML</abbr>.
+            Using style sheets, you can keep your <abbr>CSS</abbr> presentation layer and <abbr>HTML</abbr> content layer
+            separate. This is called "separation of concerns."
+          </p>
+          <!--Defining an abbreviation in tandem with <dfn> -->
+          <p>
+            <dfn id="html"><abbr title="HyperText Markup Language">HTML</abbr> </dfn> is a
+            markup language used to create the semantics and structure of a web. <abbr>HTML</abbr> is the key to web development.
+          </p>
+          <p>
+            A <dfn id="spec">Specification</dfn> (<abbr>spec</abbr>) is a document that
+            outlines in detail how a technology or API is intended to function and how it
+            is accessed.
+          </p>
+
+          <!--The Contact Address Element-->
+          <p>Contact the author of this page:</p>
+            <address>
+                <a href="mailto:jim@example.com">jim@example.com</a><br />
+                <a href="tel:+14155550132">+1 (415) 555‑0132</a>
+        <pre> 
+            Mobile: +254–724–319344
+                    +254–733–221322
+            Wireless: 020–2381204
+            Landline: 020–2381203/4
+            <a href="mailto:info@kma.go.ke">Email: info@kma.go.ke</a>
+            Location: Bahari Towers,
+            P.O. Box 95076 – 80104 Mombasa, Kenya.
+        </pre>
+            </address>
+            </p>
+    <!--The Image Map Area element <area> -->
+    <p>
+        Use <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area" target="_blank">Link</a> to get to the image map area element <abbr title="Information">info</abbr>.
+        </p>
+
+        <!--The Article contents element-->
+        <article class="forecast">
+            <h1>Weather forecast for Seattle</h1>
+            <article class="day-forecast">
+              <h2>03 March 2018</h2>
+              <p>Rain.</p>
+              <figure>
+              <img src="images/rain.png" alt="rain" >
+              <figcaption> Rain</figcaption>
+            </figure>
+            </article>
+            <article class="day-forecast">
+              <h2>04 March 2018</h2>
+              <p>Periods of rain.</p>
+            </article>
+            <article class="day-forecast">
+              <h2>05 March 2018</h2>
+              <p>Heavy rain.</p>
+            </article>
+          </article>
+
+          <!--The embed Audio Element-->
+          <audio controls>
+            <source src="audio/sunflower.mp3" type="audio/mpeg">
+            </audio><br>
+
+            <!--The Document Base URL element-->
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base" target="_blank">For more Information on the base element</a><br>
+
+            <!--The Button  element-->
+            <button type="button">PLay</button>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button">For more deatils on the button element</a><br>
+            <!--The TableCaption element-->
+            <table>
+              <caption>
+                User login email addresses
+              </caption>
+              <tr>
+                <th>Login</th>
+                <th>Email</th>
+              </tr>
+              <tr>
+                <td>user1</td>
+                <td>user1@example.com</td>
+              </tr>
+              <tr>
+                <td>user2</td>
+                <td>user2@example.com</td>
+              </tr>
+            </table>
+      <!--The Table Column element-->
+      <table>
+        <colgroup>
+          <col span="2" />
+          <col style="display: table-column;" />
+        </colgroup>
+        <tr>
+          <th>ISBN</th>
+          <th>Title</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>3476896</td>
+          <td>My first HTML</td>
+          <td>$53</td>
+        </tr>
+      </table> 
+      
+      <!--The Table Column Group element-->
+      <table>
+        <caption>
+          Superheros and sidekicks
+        </caption>
+        <colgroup>
+          <col />
+          <col span="2" class="batman" />
+          <col span="2" class="flash" />
+        </colgroup>
+        <tr>
+          <td></td>
+          <th scope="col">Batman</th>
+          <th scope="col">Robin</th>
+          <th scope="col">The Flash</th>
+          <th scope="col">Kid Flash</th>
+        </tr>
+        <tr>
+          <th scope="row">Skill</th>
+          <td>Smarts, strong</td>
+          <td>Dex, acrobat</td>
+          <td>Super speed, smarts</td>
+          <td>Super speed</td>
+        </tr>
+      </table>
+
+      <!--The Data element-->
+      <p>Variety of Tomatoes</p>
+      <ul>
+        <li><data value="21053">Cherry Tomato</data></li>
+        <li><data value="21054">Beef Tomato</data></li>
+        <li><data value="21055">Snack Tomato</data></li>
+      </ul>  
+
+      <!--The Datalist element-->
+      <h1>The datalist element</h1>
+
+<form action="/action_page.php" method="get">
+  <label for="browser">Choose your browser from the list:</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+<label for="ice-cream-choice">Choose a flavor:</label>
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+<datalist id="ice-cream-flavors">
+  <option value="Chocolate"></option>
+  <option value="Coconut"></option>
+  <option value="Mint"></option>
+  <option value="Strawberry"></option>
+  <option value="Vanilla"></option>
+</datalist>
+       <!--The Details Tag-->
+       <details>
+        <summary>Details</summary>
+        Something small enough to escape casual notice.
+      </details>
+      <!--The fieldset element-->
+      <h1>The fieldset element</h1>
+
+<form action="/action_page.php">
+ <fieldset>
+  <legend>Personalia:</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>     
+</body>
+</html>
